@@ -41,6 +41,63 @@ const projects = [
     tech: "Java • Docker",
     link: "https://github.com/davo300/SpringBoot-Docker",
   },
+  {
+    name: "Feature Engineering (Titanic ML)",
+    description:
+      "End-to-end feature engineering and selection on the Titanic dataset, including preprocessing, encoding, and feature evaluation.",
+    tech: "Python • Pandas • Scikit-learn",
+    link: "https://github.com/davo300/feature-engineering-ML",
+  },
+  {
+    name: "Python LeetCode",
+    description:
+      "Large collection of Python-based LeetCode solutions and problem-solving techniques.",
+    tech: "Python • Algorithms",
+    link: "https://github.com/davo300/python-leetcode",
+  },
+  {
+    name: "Heat Simulation (C++ / OpenCV)",
+    description:
+      "C++ heat simulation using OpenCV matrices and the Jacobi method to model temperature diffusion.",
+    tech: "C++ • OpenCV",
+    link: "https://github.com/davo300/Heat-Simulation",
+  },
+  {
+    name: "User Registration (Laravel / MySQL)",
+    description:
+      "Laravel PHP project demonstrating user registration with validation and database persistence.",
+    tech: "PHP • Laravel • MySQL",
+    link: "https://github.com/davo300/User-Registration-PHP-Laravel-MySQL",
+  },
+  {
+    name: "QuoteGenerator",
+    description:
+      "Full-stack application for managing quotes and authors using FastAPI, React, and TypeScript.",
+    tech: "TypeScript • React • FastAPI",
+    link: "https://github.com/davo300/QuoteGenerator",
+  },
+  {
+    name: "JetBot",
+    description:
+      "Autonomous robot car built with NVIDIA Jetson Nano, focusing on robotics and computer vision.",
+    tech: "Python • NVIDIA Jetson • Robotics",
+    link: "https://github.com/davo300/JetBot",
+  },
+  {
+    name: "Java Development Suite",
+    description:
+      "Collection of Java projects demonstrating core language features, OOP, and software design patterns.",
+    tech: "Java • OOP",
+    link: "https://github.com/davo300/Java-Development-Suite",
+  },
+  {
+    name: "CSharp",
+    description:
+      "C# projects exploring .NET fundamentals, object-oriented programming, and application development.",
+    tech: "C# • .NET",
+    link: "https://github.com/davo300/CSharp",
+  },
+
 ];
 
 export default function Home() {
@@ -56,7 +113,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-black/80" />
 
       {/* HERO SECTION */}
-      <section className="relative z-10 min-h-screen flex items-center px-6">
+      <section className="relative z-10 min-h-[60vh] flex items-center px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* LEFT */}
           <div>
