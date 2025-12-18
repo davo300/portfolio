@@ -117,7 +117,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-white/20 max-w-sm">
               <Image
-                src="/profile.jpg"
+                src="/profile.jpeg"
                 alt="Matthew Davies"
                 width={400}
                 height={400}
