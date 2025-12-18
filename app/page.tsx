@@ -49,7 +49,7 @@ export default function Home() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/pattern.JPG')" }}
+        style={{ backgroundImage: "url('/pattern.jpg')" }}
       />
 
       {/* Dark overlay */}
@@ -117,7 +117,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="rounded-2xl overflow-hidden shadow-xl border border-white/20 max-w-sm">
               <Image
-                src="/profile.JPG"
+                src="/profile.jpg"
                 alt="Matthew Davies"
                 width={400}
                 height={400}
