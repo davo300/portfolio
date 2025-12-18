@@ -66,7 +66,8 @@ export default function Home() {
 
             <p className="text-lg text-gray-200 mb-6">
               Computer Science student building full-stack applications with
-              React, TypeScript, FastAPI, and SQLAlchemy.
+              React, TypeScript, FastAPI, and SQLAlchemy. Also experimenting with
+              machine learning techniques and deploying Chatbots.
             </p>
 
             <div className="flex flex-wrap gap-3">
