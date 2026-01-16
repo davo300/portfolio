@@ -3,8 +3,8 @@ import Image from "next/image";
 const projects = [
   {
     name: "Llama-Chatbot",
-    description: "Full-stack chatbot app using LLMs and modern web tooling.",
-    tech: "Python • Jupyter",
+    description: "A full-stack Retrieval-Augmented Generation (RAG) chatbot designed to help students understand course material for COMP-2140 (Compilers) without revealing full solutions. The system uses course assignment PDFs as ground truth, retrieves relevant sections using embeddings + FAISS, and generates grounded, non-hallucinating explanations using LLaMA model.",
+    tech: "RAG • Python • Colab • HuggingFace • LLaMA",
     link: "https://github.com/davo300/Llama-Chatbot",
   },
   {
@@ -21,6 +21,12 @@ const projects = [
     link: "https://github.com/davo300/NASA_Space_Apps",
   },
   {
+    name: "BayesianLogisticRegression-PyMC",
+    description: "This project implements a Bayesian logistic regression model using PyMC to predict passenger survival on the Titanic dataset. Unlike classical logistic regression, this approach models uncertainty in parameters through probability distributions, enabling principled inference and uncertainty quantification.",
+    tech: "Python • Colab • PyMC • pandas • numpy • matlplotlib",
+    link: "https://github.com/davo300/BayesianLogisicRegression-PyMC",
+  },
+  {
     name: "CUDA Heat Simulation",
     description:
       "GPU-accelerated Jacobi heat diffusion simulation using CUDA.",
@@ -31,7 +37,7 @@ const projects = [
     name: "AI Research Paper",
     description:
       "Comparative study of optimization algorithms and ML techniques.",
-    tech: "Python • Machine Learning",
+    tech: "Python • Machine Learning • random forest • gradient boosting • scikit learn • seaborn ",
     link: "https://github.com/davo300/AI-Research-Paper",
   },
   {
