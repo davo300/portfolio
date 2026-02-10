@@ -135,7 +135,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-3">
               <a
-                href="/swe-ml-resume.pdf"
+                href="/NOKIA_AI_ML_resume.pdf"
                 target="_blank"
                 aria-label="Open resume PDF"
                 className="px-5 py-2 rounded-md border border-white/30 hover:bg-white/10 transition flex items-center gap-2"
