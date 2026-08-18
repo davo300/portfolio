@@ -34,6 +34,14 @@ const projects = [
     link: "https://github.com/davo300/CUDA-Heat-Simulation",
   },
   {
+    name: "Dynamic Hypergraph Neural Networks for Node Classification",
+    description:
+      "Implemented and evaluated Graph Neural Networks (GCN, GAT) alongside multiple Hypergraph Neural Network (HGNN+) variants for node classification. Developed dynamic hypergraph learning methods that periodically reconstruct hyperedges using KNN, DOSAGE-style, and LFH-inspired strategies, and compared their performance on the Cora and DBLP benchmark datasets to study the impact of higher-order relationships and adaptive hypergraph construction.",
+    tech:
+      "Python • PyTorch • PyTorch Geometric • HGNN+ • GCN • GAT • Representation Learning • Graph Neural Networks • Hypergraph Neural Networks • Machine Learning",
+    link: "https://github.com/davo300/hypergraph-neural-networks-paper",
+  },
+  {
     name: "AI Research Paper",
     description:
       "Comparative study of optimization algorithms and ML techniques.",
