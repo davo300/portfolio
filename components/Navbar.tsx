@@ -13,7 +13,7 @@ export default function Navbar() {
             Projects
           </Link>
           <a
-            href="/NOKIA_AI_ML_resume.pdf"
+            href="/Matthew_Davies_resume.pdf"
             target="_blank"
             className="hover:underline"
           >
