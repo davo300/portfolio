@@ -29,6 +29,7 @@ const projects = [
     description: "This project implements a Bayesian logistic regression model using PyMC to predict passenger survival on the Titanic dataset. Unlike classical logistic regression, this approach models uncertainty in parameters through probability distributions, enabling principled inference and uncertainty quantification.",
     tech: "Python • Colab • PyMC • pandas • numpy • matlplotlib",
     link: "https://github.com/davo300/BayesianLogisticRegression-PyMC",
+    image: "/projects/bayes.png",
   },
   {
     name: "CUDA Heat Simulation",
@@ -52,6 +53,7 @@ const projects = [
       "Comparative study of optimization algorithms and ML techniques.",
     tech: "Python • Machine Learning • random forest • gradient boosting • scikit learn • seaborn ",
     link: "https://github.com/davo300/AI-Research-Paper",
+    image: "/projects/ai-ppr.png",
   },
   {
     name: "SpringBoot Docker",
