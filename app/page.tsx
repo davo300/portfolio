@@ -81,6 +81,14 @@ const projects = [
     image: "/projects/heat-sim-opencv.png",
   },
   {
+    name: "Seattle Airbnb Data Analysis (Tableau)",
+    description:
+      "This project analyzes Seattle Airbnb listings using Tableau. The goal is to explore pricing, availability, and listing characteristics across neighborhoods and bedroom counts.",
+    tech: "Tableau Public • CSV data (no Excel preprocessing)",
+    link: "https://github.com/davo300/seattle-airbnb-tableau",
+    image: "/projects/Dashboard1.png"
+  },
+  {
     name: "User Registration (Laravel / MySQL)",
     description:
       "Laravel PHP project demonstrating user registration with validation and database persistence.",
