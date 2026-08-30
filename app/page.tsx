@@ -3,9 +3,11 @@ import Image from "next/image";
 const projects = [
   {
     name: "Llama-Chatbot",
-    description: "A full-stack Retrieval-Augmented Generation (RAG) chatbot designed to help students understand course material for COMP-2140 (Compilers) without revealing full solutions. The system uses course assignment PDFs as ground truth, retrieves relevant sections using embeddings + FAISS, and generates grounded, non-hallucinating explanations using LLaMA model.",
+    description:
+      "A full-stack Retrieval-Augmented Generation (RAG) chatbot designed to help students understand course material for COMP-2140 (Compilers) without revealing full solutions. The system uses course assignment PDFs as ground truth, retrieves relevant sections using embeddings + FAISS, and generates grounded, non-hallucinating explanations using LLaMA model.",
     tech: "RAG • Python • Colab • HuggingFace • LLaMA",
     link: "https://github.com/davo300/Llama-Chatbot",
+    image: "/projects/llama-chatbot.png",
   },
   {
     name: "AWS-SpringBoot",
@@ -216,20 +218,32 @@ export default function Home() {
               key={project.name}
               href={project.link}
               target="_blank"
-              className="block rounded-xl border border-white/15 bg-white/5 p-6
-                         hover:bg-white/10 hover:-translate-y-1 transition-all"
+              rel="noopener noreferrer"
+              className="block rounded-xl border border-white/15 bg-white/5 overflow-hidden
+                        hover:bg-white/10 hover:-translate-y-1 transition-all"
             >
-              <h3 className="text-xl font-medium mb-2">
-                {project.name}
-              </h3>
+              <div className="relative w-full h-52">
+                <Image
+                  src={project.image}
+                  alt={`${project.name} project`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
 
-              <p className="text-gray-300 mb-4 text-sm">
-                {project.description}
-              </p>
+              <div className="p-6">
+                <h3 className="text-xl font-medium mb-2">
+                  {project.name}
+                </h3>
 
-              <span className="text-xs text-gray-400">
-                {project.tech}
-              </span>
+                <p className="text-gray-300 mb-4 text-sm">
+                  {project.description}
+                </p>
+
+                <span className="text-xs text-gray-400">
+                  {project.tech}
+                </span>
+              </div>
             </a>
           ))}
         </div>
