@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const projects = [
   {
-    name: "Llama-Chatbot",
+    name: "CS Tutoring Chatbot using LLaMA",
     description:
       "A full-stack Retrieval-Augmented Generation (RAG) chatbot designed to help students understand course material for COMP-2140 (Compilers) without revealing full solutions. The system uses course assignment PDFs as ground truth, retrieves relevant sections using embeddings + FAISS, and generates grounded, non-hallucinating explanations using LLaMA model.",
     tech: "RAG • Python • Colab • HuggingFace • LLaMA",
-    link: "https://github.com/davo300/Llama-Chatbot",
-    image: "/projects/llama-chatbot.png",
+    link: "https://github.com/davo300/cs-tutor-bot",
+    image: "/projects/llama-chatbot-lol.png",
   },
   {
     name: "AWS-SpringBoot",
