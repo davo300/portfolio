@@ -212,41 +212,43 @@ export default function Home() {
           Projects
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {projects.map((project) => (
-            <a
-              key={project.name}
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block rounded-xl border border-white/15 bg-white/5 overflow-hidden
-                        hover:bg-white/10 hover:-translate-y-1 transition-all"
-            >
-              <div className="relative w-full h-52">
-                <Image
-                  src={project.image}
-                  alt={`${project.name} project`}
-                  fill
-                  className="object-cover"
-                />
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {projects.map((project) => (
+      <a
+        key={project.name}
+        href={project.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block rounded-xl border border-white/15 bg-white/5 overflow-hidden
+                  hover:bg-white/10 hover:-translate-y-1 transition-all"
+      >
+        {project.image && (
+          <div className="relative w-full h-52">
+            <Image
+              src={project.image}
+              alt={`${project.name} project`}
+              fill
+              className="object-cover"
+            />
+          </div>
+        )}
 
-              <div className="p-6">
-                <h3 className="text-xl font-medium mb-2">
-                  {project.name}
-                </h3>
+        <div className="p-6">
+          <h3 className="text-xl font-medium mb-2">
+            {project.name}
+          </h3>
 
-                <p className="text-gray-300 mb-4 text-sm">
-                  {project.description}
-                </p>
+          <p className="text-gray-300 mb-4 text-sm">
+            {project.description}
+          </p>
 
-                <span className="text-xs text-gray-400">
-                  {project.tech}
-                </span>
-              </div>
-            </a>
-          ))}
+          <span className="text-xs text-gray-400">
+            {project.tech}
+          </span>
         </div>
+      </a>
+    ))}
+  </div>
       </section>
     </main>
   );
