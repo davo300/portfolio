@@ -103,6 +103,7 @@ const projects = [
       "Full-stack application for managing quotes and authors using FastAPI, React, and TypeScript.",
     tech: "TypeScript • React • FastAPI",
     link: "https://github.com/davo300/QuoteGenerator",
+    image: "/projects/quote-gen.png",
   },
   {
     name: "JetBot",
