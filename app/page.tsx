@@ -44,6 +44,7 @@ const projects = [
     tech:
       "Python • PyTorch • PyTorch Geometric • HGNN+ • GCN • GAT • Representation Learning • Graph Neural Networks • Hypergraph Neural Networks • Machine Learning",
     link: "https://github.com/davo300/hypergraph-neural-networks-paper",
+    image: "/projects/hypergraph-ppr.png"
   },
   {
     name: "AI Research Paper",
