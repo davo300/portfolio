@@ -14,6 +14,7 @@ const projects = [
     description: "Deploying Spring Boot and PostgreSQL to AWS cloud.",
     tech: "Java • AWS • PostgreSQL",
     link: "https://github.com/davo300/AWS-SpringBoot",
+    image: "/projects/01-Console-home-previous-1.png",
   },
   {
     name: "NASA Space Apps",
