@@ -37,6 +37,7 @@ const projects = [
       "GPU-accelerated Jacobi heat diffusion simulation using CUDA.",
     tech: "CUDA • C++",
     link: "https://github.com/davo300/CUDA-Heat-Simulation",
+    image: "/projects/cuda.png",
   },
   {
     name: "Dynamic Hypergraph Neural Networks for Node Classification",
