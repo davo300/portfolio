@@ -21,6 +21,7 @@ const projects = [
       "Interactive platform for exploring massive space image datasets.",
     tech: "TypeScript • React",
     link: "https://github.com/davo300/NASA_Space_Apps",
+    image: "/projects/nasa-space-apps.jpeg",
   },
   {
     name: "BayesianLogisticRegression-PyMC",
