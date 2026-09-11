@@ -114,6 +114,7 @@ const projects = [
       "Autonomous robot car built with NVIDIA Jetson Nano, focusing on robotics and computer vision.",
     tech: "Python • NVIDIA Jetson • Robotics",
     link: "https://github.com/davo300/JetBot",
+    image: "/projects/jetbot-pic.JPG",
   },
   {
     name: "Java Development Suite",
