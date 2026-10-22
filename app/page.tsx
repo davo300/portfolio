@@ -155,9 +155,10 @@ export default function Home() {
             </h1>
 
             <p className="text-lg text-gray-200 mb-6">
-              Computer Science student building full-stack applications with
-              React, TypeScript, FastAPI, and SQLAlchemy. Also experimenting with
-              machine learning techniques and deploying Chatbots.
+              MSc Computer Science (AI) student at the University of Windsor with interests in machine learning, 
+              graph representation learning, and software engineering. Experienced in developing neural network models,
+              retrieval-augmented generation (RAG) systems, and full-stack applications using Python, PyTorch, React,
+              TypeScript, and FastAPI.
             </p>
 
             <div className="flex flex-wrap gap-3">
