@@ -15,7 +15,7 @@ const projects = [
       "A full-stack platform for managing job applications, interview timelines, documents, and application analytics. Built with secure authentication and user-isolated data, and deployed on AWS Lightsail with HTTPS and encrypted backups. PostgreSQL query optimization reduced search p95 latency by 40% in local benchmarks across 10,000 synthetic applications at 25 concurrent sessions.",
     tech: "Python • FastAPI • PostgreSQL • React • Docker • AWS",
     link: "https://github.com/davo300/Job-Application-Tracker",
-    image: "/projects/job-application-tracker.png",
+    image: "/projects/job-application-tracker.jpg",
   },
 
 
